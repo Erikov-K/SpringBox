@@ -20,7 +20,10 @@
 
 <div class="container">
     <br>
-    <h1>Files page</h1>
+    <h1 sec:authorize="isAuthenticated()">
+        Files page
+    </h1>
+
 </div>
 </body>
 </html>
